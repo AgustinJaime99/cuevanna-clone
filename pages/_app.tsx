@@ -1,3 +1,4 @@
+import { Layout } from '@/components/common/Layout'
 import GlobalStyles from '@/configs/theme'
 import { GlobalContextProvider } from '@/context/GlobalContext'
 import '@/styles/globals.css'
@@ -8,7 +9,9 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <GlobalContextProvider>
         <GlobalStyles />
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </GlobalContextProvider>
     </>
   )
