@@ -1,4 +1,4 @@
-import { Button } from '@/components/common/Button'
+import { Footer } from '@/components/common/Footer'
 import Head from 'next/head'
 
 export default function Series() {
@@ -7,9 +7,10 @@ export default function Series() {
       <Head>
         <title>Cuevanna Clone | Series</title>
       </Head>
-      <Button url='/hola'>
-        Hello
-      </Button>
+      <div>
+        Another item
+      </div>
+      <Footer />
     </>
   )
 }
