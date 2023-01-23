@@ -1,3 +1,4 @@
+import { Button } from '@/components/common/Button'
 import Head from 'next/head'
 
 export default function Series() {
@@ -6,6 +7,9 @@ export default function Series() {
       <Head>
         <title>Cuevanna Clone | Series</title>
       </Head>
+      <Button url='/hola'>
+        Hello
+      </Button>
     </>
   )
 }

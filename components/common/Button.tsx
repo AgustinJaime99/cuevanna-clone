@@ -7,6 +7,7 @@ interface Props {
 }
 
 export const Button = ({ url, children }: Props) => {
+
   return (
     <>
       {url ?
@@ -21,5 +22,16 @@ export const Button = ({ url, children }: Props) => {
 }
 
 const Btn = styled.button`
-
+  padding: 1rem 2rem;
+  border: none;
+  line-height: 2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  width: 100%;
+  color: var(--white);
+  background-color: var(--secondaryColor1);
+  transition: all ease-in-out 0.3s;
+  &:hover {
+    background-color: var(--primaryColor1);
+  }
 `
