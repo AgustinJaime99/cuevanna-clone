@@ -1,5 +1,5 @@
 import { Button } from '@/components/common/Button'
-import { Navbar } from '@/components/common/navbar'
+import { Navbar } from '@/components/common/Navbar'
 import Head from 'next/head'
 
 export default function Home() {
