@@ -45,7 +45,7 @@ export const Navbar = () => {
 const Nav = styled.nav`
   display: flex;
   padding-left: 190px;
-  width: 1909px;
+  width: 100%;
   height: 80px;
   justify-content: left;
   align-items: center;
