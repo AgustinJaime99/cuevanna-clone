@@ -24,7 +24,9 @@ export const Navbar = () => {
     <>
       <Nav>
         <div>
-        <Image src="/images/logo.png" width={200} height={60} alt={"logo"} />
+          <Link href='/'>
+          <Image src="/images/logo.png" width={232} height={71} alt={"logo"} />
+          </Link>
         </div>
       
         <Ul>
@@ -42,7 +44,7 @@ export const Navbar = () => {
 
 const Nav = styled.nav`
   display: flex;
-  padding-left: 130px;
+  padding-left: 190px;
   width: 1909px;
   height: 80px;
   justify-content: left;
@@ -50,13 +52,17 @@ const Nav = styled.nav`
   background-color: #141a32;
 `
 const Tex = styled.li`
-  color: white;
-  font-size: 16px;
-  padding:25px;
-  
+  color: #fff;
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifl;
+  padding:20px;
+  &:hover {
+    color: #007aff
+  }
 `
 const Ul = styled.ul`
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  padding-left: 14px;
 `
  
