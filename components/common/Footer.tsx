@@ -13,8 +13,9 @@ export const Footer = () => {
 const FooterContainer = styled.footer`
   text-align: center;
   padding: 4rem 0;
-  background-color: var(--secondaryColor2);
+  background: linear-gradient(to bottom,rgba(20,26,50,0) 0,rgba(20,26,50,.01) 1%,#141a32 100%);
   margin-top: auto;
+  width: 100%;
   p {
     color: var(--primaryColor2);
   }

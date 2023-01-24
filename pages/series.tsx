@@ -10,7 +10,6 @@ export default function Series() {
       <div>
         Another item
       </div>
-      <Footer />
     </>
   )
 }
